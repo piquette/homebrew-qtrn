@@ -1,9 +1,9 @@
 class Qtrn < Formula
   desc "qtrn is a tool for printing financial markets data to the console and writing data to files."
   homepage "https://github.com/piquette/qtrn"
-  url "https://github.com/piquette/qtrn/releases/download/v0.0.3/qtrn_0.0.3_darwin_amd64.tar.gz"
-  version "0.0.3"
-  sha256 "828f3b91b5953af79be3cd4b1e782bb2d863f85fe78a12cf8e29244a234bc24b"
+  url "https://github.com/piquette/qtrn/releases/download/v0.0.4/qtrn_0.0.4_darwin_amd64.tar.gz"
+  version "0.0.4"
+  sha256 "23e3f0182134837fe5bd60b9f14221ab8cf8d87d9b069f727dff7f461d1e5b59"
 
   def install
     bin.install "qtrn"
