@@ -2,16 +2,16 @@
 class Qtrn < Formula
   desc "qtrn is a tool for printing financial markets data to the console and writing data to files."
   homepage "https://github.com/piquette/qtrn"
-  version "0.0.8"
+  version "0.0.9"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/piquette/qtrn/releases/download/v0.0.8/qtrn_0.0.8_darwin_amd64.tar.gz"
-    sha256 "82409dca0efaa16cc852a428537bd4bf7e4758d32d87e5f58bac5f56cf8029ce"
+    url "https://github.com/piquette/qtrn/releases/download/v0.0.9/qtrn_0.0.9_darwin_amd64.tar.gz"
+    sha256 "511878b74f739268993895c244802fa11b5b22ad955d834e093419a840d5b656"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/piquette/qtrn/releases/download/v0.0.8/qtrn_0.0.8_linux_amd64.tar.gz"
-      sha256 "9bbdc12ecbd8f279c6ef7b9f8b9b250c54d3934999a8cd773725a51658cf9f13"
+      url "https://github.com/piquette/qtrn/releases/download/v0.0.9/qtrn_0.0.9_linux_amd64.tar.gz"
+      sha256 "99af3142e8756b4b5a9f7fff7fcceb720cd7f8af3f6ed86b0a36378b402b9acd"
     end
   end
 
